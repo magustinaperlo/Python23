@@ -26,6 +26,21 @@ def validar(nombre):
         if c==caracterBuscado:
             return True
     return False
+  
+  #sugerencia 
+  
+  def validar(nombre):
+    caracterBuscado = "C"
+    if nombre.startswith(caracterBuscado):
+        return True
+    else:
+        return False
+
+nombre = input("Ingrese un nombre: ")
+if validar(nombre):
+    print("Nombre válido")
+else:
+    print("Nombre inválido")
 
  
 nombre=input("nombre: ")
